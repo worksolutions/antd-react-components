@@ -1,0 +1,69 @@
+{
+  "extends": [
+    "react-app",
+    "react-app/jest",
+    "@feature-sliced/eslint-config/rules/public-api",
+    "@feature-sliced/eslint-config/rules/layers-slices",
+    "plugin:react-hooks/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "settings": {
+    "import/resolver": {
+      "typescript": {
+        "alwaysTryTypes": true
+      }
+    }
+  },
+  "plugins": [
+    "react",
+    "react-hooks",
+    "simple-import-sort"
+  ],
+  "rules": {
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/jsx-closing-bracket-location": [
+      "error",
+      "tag-aligned"
+    ],
+    "react/jsx-curly-brace-presence": [
+      "error",
+      "never"
+    ],
+    "react/jsx-curly-spacing": "error",
+    "max-len": [
+      "error",
+      {
+        "code": 120,
+        "ignoreStrings": true,
+        "ignoreTrailingComments": true,
+        "ignoreUrls": true,
+        "ignoreRegExpLiterals": true
+      }
+    ],
+    "no-unused-expressions": "error",
+    "@typescript-eslint/no-unused-vars": "error",
+    "complexity": [
+      "error",
+      {
+        "max": 10
+      }
+    ],
+    "import/first": "error",
+    "import/no-duplicates": "error",
+    "import/newline-after-import": "warn",
+    "simple-import-sort/imports": [
+      "error",
+      {
+        "groups": [
+          ["reflect-metadata"],
+          ["^react", "react", "^@?\\w"],
+          ["^shared"],
+          ["^../"],
+          ["^./"],
+          ["./index.scss"]
+        ]
+      }
+    ]
+  }
+}
