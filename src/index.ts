@@ -1,4 +1,4 @@
 import "reflect-metadata";
 
-export * from "shared/config/theme";
-export * from "shared/appServices";
+export { theme } from "shared/config/theme";
+export { useAppServices, AppServices } from "shared/appServices";
