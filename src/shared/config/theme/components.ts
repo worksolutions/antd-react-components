@@ -1,5 +1,8 @@
 import { ThemeConfig } from "antd";
 
 export const components: ThemeConfig["components"] = {
-  Layout: { colorBgBody: "#ffffff" },
+  Layout: {
+    colorBgBody: "transparent",
+    colorBgHeader: "transparent",
+  },
 };
