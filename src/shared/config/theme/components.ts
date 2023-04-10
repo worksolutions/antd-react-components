@@ -5,4 +5,8 @@ export const components: ThemeConfig["components"] = {
     colorBgBody: "transparent",
     colorBgHeader: "transparent",
   },
+  Typography: {
+    sizeMarginHeadingVerticalEnd: 0,
+    sizeMarginHeadingVerticalStart: 0,
+  },
 };
