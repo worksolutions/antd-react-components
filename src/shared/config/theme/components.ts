@@ -1,3 +1,5 @@
-import { ThemeConfig } from "antd"
+import { ThemeConfig } from "antd";
 
-export const components: ThemeConfig["components"] = {};
+export const components: ThemeConfig["components"] = {
+  Layout: { colorBgBody: "#ffffff" },
+};
