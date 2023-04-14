@@ -1,10 +1,18 @@
 import React from "react";
 import { Spin } from "antd";
 
-import styles from "./index.module.scss";
-
 function PageSpin() {
-  return <Spin className={styles.pageSpin} size="large" />;
+  return (
+    <Spin
+      size="large"
+      style={{
+        position: "fixed",
+        top: "50%",
+        left: "50%",
+        transform: "translate(-50%, -50%)",
+      }}
+    />
+  );
 }
 
 export default React.memo(PageSpin);
