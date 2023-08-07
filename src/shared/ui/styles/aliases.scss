@@ -1,0 +1,77 @@
+.block{
+  display: block;
+}
+
+.textAlignLeft{
+  text-align: left
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.halfWidth{
+  width: 50%;
+}
+
+.fullHeight {
+  height: 100%;
+}
+
+.heightAuto {
+  height: auto;
+}
+
+.heightHack {
+  height: 0;
+  flex: 1;
+}
+
+.widthHack {
+  width: 0;
+  flex: 1;
+}
+
+.fitContentWidth{
+  width: fit-content;
+}
+
+.resetPadding {
+  padding: 0;
+}
+
+.resetMargin {
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.fdColumn {
+  flex-direction: column;
+}
+
+.aiEnd {
+  align-items: flex-end;
+}
+
+.aiCenter {
+  align-items: center;
+}
+
+.jcCenter {
+  justify-content: center;
+}
+
+.jcBetween {
+  justify-content: space-between;
+}
+
+.borderR {
+  border-right: 1px solid;
+}
+
+.borderB {
+  border-bottom: 1px solid;
+}
