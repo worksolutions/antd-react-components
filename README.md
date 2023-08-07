@@ -9,10 +9,11 @@
 npm i @worksolutions/antd-react-components
 ```
 
-#### Использование стилей из aliases.scss
+#### Подключение стилей
 
-Чтобы использовать файл с стилями, импортируйте файл в index.scss проекта
+Чтобы подключить стилизацию, добавьте следующий код в основной scss файл вашего проекта.
 
 ```bash
+@import 'antd/dist/reset.css';
 @import "@worksolutions/antd-react-components/dist/aliases";
 ```
