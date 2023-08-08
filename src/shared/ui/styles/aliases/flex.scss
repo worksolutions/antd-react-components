@@ -1,0 +1,33 @@
+.flex {
+  display: flex;
+}
+
+.fdColumn {
+  flex-direction: column;
+}
+
+.aiEnd {
+  align-items: flex-end;
+}
+
+.aiCenter {
+  align-items: center;
+}
+
+.jcCenter {
+  justify-content: center;
+}
+
+.jcBetween {
+  justify-content: space-between;
+}
+
+.heightHack {
+  height: 0;
+  flex: 1;
+}
+
+.widthHack {
+  width: 0;
+  flex: 1;
+}
