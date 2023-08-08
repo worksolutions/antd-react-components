@@ -15,5 +15,5 @@ npm i @worksolutions/antd-react-components
 
 ```bash
 @import 'antd/dist/reset.css';
-@import "@worksolutions/antd-react-components/dist/aliases";
+@import "@worksolutions/antd-react-components/dist/styles.css";
 ```
