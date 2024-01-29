@@ -6,5 +6,6 @@ export const components: ThemeConfig["components"] = {
     headerBg: "transparent",
     colorBgContainer: "transparent",
     colorBgElevated: "transparent",
+    footerBg: "transparent"
   },
 };
