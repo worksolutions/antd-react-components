@@ -6,10 +6,10 @@ export const components: ThemeConfig["components"] = {
     headerBg: "transparent",
     colorBgContainer: "transparent",
     colorBgElevated: "transparent",
-    footerBg: "transparent"
+    footerBg: "transparent",
   },
   Typography: {
-    fontFamily: 'Roboto, sans-serif',
+    fontFamily: "Roboto, sans-serif",
     fontSize: 14,
     lineHeight: 1.1428,
     fontSizeHeading3: 21,
@@ -25,19 +25,23 @@ export const components: ThemeConfig["components"] = {
     colorError: "#F68181",
   },
   Button: {
-    colorPrimary: "#4EACE8",
+    colorPrimary: "#0B7AC2",
     colorPrimaryHover: "#075180",
-    defaultBorderColor: "#757575",
-    defaultGhostBorderColor: "#757575",
-    defaultGhostColor: "#464646",
     defaultColor: "#464646",
+    defaultBorderColor: "#757575",
+    defaultGhostColor: "#464646",
+    defaultGhostBorderColor: "#757575",
+    colorTextSecondary: "#464646",
+    colorBorderSecondary: "#757575",
+    colorLink: "#0B7AC2",
+    colorLinkHover: "#075180",
     lineWidth: 2,
     borderRadius: 50,
     borderRadiusLG: 50,
     borderRadiusSM: 50,
+    textHoverBg: "#075180",
     colorErrorHover: "#E22929",
     colorErrorBorderHover: "#F68181",
-    textHoverBg: "#075180",
     dangerColor: "#9E0505",
   },
   Input: {
@@ -47,6 +51,6 @@ export const components: ThemeConfig["components"] = {
     colorErrorBorder: "#F7AAAA",
     paddingInline: 16,
     lineWidth: 2,
-    borderRadius: 8
-  }
+    borderRadius: 8,
+  },
 };
