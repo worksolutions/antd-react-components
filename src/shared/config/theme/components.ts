@@ -25,10 +25,10 @@ export const components = {
     colorError: "#F68181",
   },
   Button: {
-    colorPrimary: "#FFFFFF",
+    colorPrimaryBg: "#FFFFFF",
     colorPrimaryText: "#0B7AC2",
     colorPrimaryTextHover: "#075180",
-    colorPrimaryHover: "#FFFFFF",
+    colorPrimaryBgHover: "#FFFFFF",
     colorPrimaryBorder: "#4EACE8",
     colorPrimaryBorderHover: "#0B7AC2",
     defaultColor: "#464646",
