@@ -1,6 +1,6 @@
-// import { ThemeConfig } from "antd";
+import { ThemeConfig } from "antd";
 
-export const components = {
+export const components: ThemeConfig["components"] = {
   Layout: {
     bodyBg: "transparent",
     headerBg: "transparent",
@@ -26,6 +26,7 @@ export const components = {
   },
   Button: {
     colorPrimaryBg: "#FFFFFF",
+    colorPrimaryHover: "#FFFFFF",
     colorPrimaryText: "#0B7AC2",
     colorPrimaryTextHover: "#075180",
     colorPrimaryBgHover: "#FFFFFF",
@@ -33,10 +34,10 @@ export const components = {
     colorPrimaryBorderHover: "#0B7AC2",
     defaultColor: "#464646",
     defaultBorderColor: "#757575",
-    defaultHoverColor: "#757575",
-    defaultHoverBorderColor: "#B8B8B8",
+    // defaultHoverColor: "#757575",
+    // defaultHoverBorderColor: "#B8B8B8",
+    // colorTextBorder: "0",
     colorText: "#0B7AC2",
-    colorTextBorder: "0",
     boxShadowSecondary: "0 4px 15px 0 #000",
     colorLink: "#0B7AC2",
     colorLinkHover: "#075180",
