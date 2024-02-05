@@ -26,10 +26,10 @@ export const components: ThemeConfig["components"] = {
   },
   Button: {
     colorPrimaryBg: "#FFFFFF",
-    colorPrimaryHover: "#FFFFFF",
+    primaryColor: "#0B7AC2",
+    colorPrimaryBgHover: "#FFFFFF",
     colorPrimaryText: "#0B7AC2",
     colorPrimaryTextHover: "#075180",
-    colorPrimaryBgHover: "#FFFFFF",
     colorPrimaryBorder: "#4EACE8",
     colorPrimaryBorderHover: "#0B7AC2",
     defaultColor: "#464646",
