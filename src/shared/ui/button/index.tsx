@@ -10,7 +10,7 @@ interface IButton extends ButtonProps {
 
 function ButtonWs(props: IButton) {
   return (
-    <ConfigProvider theme={theme}>
+    <ConfigProvider theme={{ token: theme.token, components: theme.components }}>
       <Button {...props}>{props.children}</Button>
     </ConfigProvider>
   );
