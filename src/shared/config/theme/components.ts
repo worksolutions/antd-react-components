@@ -6,10 +6,10 @@ export const components: ThemeConfig["components"] = {
     headerBg: "transparent",
     colorBgContainer: "transparent",
     colorBgElevated: "transparent",
-    footerBg: "transparent"
+    footerBg: "transparent",
   },
   Typography: {
-    fontFamily: 'Roboto, sans-serif',
+    fontFamily: "Roboto, sans-serif",
     fontSize: 14,
     lineHeight: 1.1428,
     fontSizeHeading3: 21,
@@ -26,11 +26,17 @@ export const components: ThemeConfig["components"] = {
   },
   Input: {
     activeBorderColor: "#7BC7F8",
+    hoverBorderColor: "#7BC7F8",
     inputFontSize: 14,
     colorBorder: "#EBEBEB",
     colorErrorBorder: "#F7AAAA",
     paddingInline: 16,
     lineWidth: 2,
-    borderRadius: 8
-  }
+    borderRadius: 8,
+    colorError: "#F7AAAA",
+    colorErrorHover: "#F7AAAA",
+    hoverBg: "#FCFCFC",
+    colorBgContainer: "#FCFCFC",
+    colorTextPlaceholder: "#757575",
+  },
 };
