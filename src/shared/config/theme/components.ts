@@ -23,5 +23,14 @@ export const components: ThemeConfig["components"] = {
     colorLinkActive: "#9752E0",
     colorSuccess: "#5BBB28",
     colorError: "#F68181",
+  },
+  Input: {
+    activeBorderColor: "#7BC7F8",
+    inputFontSize: 14,
+    colorBorder: "#EBEBEB",
+    colorErrorBorder: "#F7AAAA",
+    paddingInline: 16,
+    lineWidth: 2,
+    borderRadius: 8
   }
 };
