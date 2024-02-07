@@ -19,5 +19,21 @@ export const components: ThemeConfig["components"] = {
     hoverBg: "#FCFCFC",
     colorBgContainer: "#FCFCFC",
     colorTextPlaceholder: "#757575",
+    hoverBorderColor: "rgb(123, 199, 248)",
+    activeBorderColor: "rgb(123, 199, 248)",
+  },
+  Button: {
+    defaultHoverColor: "rgb(117, 117, 117)",
+    defaultHoverBorderColor: "rgb(184, 184, 184)",
+  },
+  Switch: {
+    colorTextQuaternary: "rgb(235, 235, 235)",
+    handleShadow: "0 2px 4px 0 rgba(0, 35, 11, 0.2)",
+  },
+  Select: {
+    colorPrimaryHover: "rgb(123, 199, 248)",
+  },
+  Tooltip: {
+    colorBgSpotlight: "rgb(93, 93, 93)",
   },
 };
