@@ -6,3 +6,4 @@ export { useBreakpoint, BreakpointProvider } from "./shared/context/breakpointPr
 
 export { default as PageSpin } from "./shared/ui/pageSpin";
 export { default as AdaptiveContainer } from "./shared/ui/adaptiveContainer";
+export { useConfirmationModal } from "./shared/ui/confirmationModal";
