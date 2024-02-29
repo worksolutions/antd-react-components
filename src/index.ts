@@ -1,6 +1,7 @@
 import "reflect-metadata";
 
 export { theme } from "./shared/config/theme";
+export { paginationLocale } from "./shared/config/table";
 
 export { useBreakpoint, BreakpointProvider } from "./shared/context/breakpointProvider";
 
