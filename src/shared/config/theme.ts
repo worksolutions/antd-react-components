@@ -123,6 +123,7 @@ export const theme: ThemeConfig = {
       textFontSizeSM: 12,
       textFontSize: 16,
       textFontSizeLG: 22,
+      colorTextPlaceholder: "rgb(189, 146, 236)",
     },
     Select: {
       optionPadding: "8px 16px",
