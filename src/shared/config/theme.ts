@@ -58,6 +58,10 @@ export const theme: ThemeConfig = {
     colorBorderSecondary: "#d4d4d4",
   },
   components: {
+    Typography: {
+      titleMarginBottom: 0,
+      titleMarginTop: 0,
+    },
     Layout: {
       bodyBg: "transparent",
       headerBg: "transparent",
