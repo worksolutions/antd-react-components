@@ -1,4 +1,4 @@
-import { PaginationProps } from "antd";
+import { PaginationProps, TableProps } from "antd";
 
 export const paginationLocale: PaginationProps["locale"] = {
   jump_to: "Перейти на",
@@ -10,4 +10,12 @@ export const paginationLocale: PaginationProps["locale"] = {
   next_5: "Следующие 5 страниц",
   prev_5: "Предыдущие 5 страниц",
   page_size: "Размер страницы",
+};
+
+export const tableLocale: TableProps["locale"] = {
+  filterConfirm: "Ок",
+  filterReset: "Сбросить",
+  triggerDesc: "Отсортировать по убыванию",
+  triggerAsc: "Отсортировать по возрастанию",
+  cancelSort: "Сбросить сортировку",
 };
