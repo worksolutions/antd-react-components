@@ -37,13 +37,16 @@ const ConfirmationModal = React.memo(function ({ subtitle, onConfirm, onCancel, 
   );
 });
 
-export function useConfirmationModal(): [(action: () => Promise<void>) => () => void, React.FC<PatchedComponentProps>] {
+export function useConfirmationModal(): [
+  (action: (() => void) | (() => Promise<void>)) => () => void,
+  React.FC<PatchedComponentProps>,
+] {
   const [open, toggleOpen] = useToggle(false);
   const [onConfirm, setOnConfirm] = useState<() => Promise<void>>();
   const [onCancel, setOnCancel] = useState<() => void>();
 
   const withConfirmation = React.useCallback(
-    (action: () => Promise<void>) => () => {
+    (action: (() => void) | (() => Promise<void>)) => () => {
       toggleOpen(true);
 
       setOnConfirm(() => async () => {
