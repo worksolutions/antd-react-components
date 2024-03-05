@@ -86,6 +86,7 @@ export const theme: ThemeConfig = {
     Button: {
       defaultHoverColor: "rgb(117, 117, 117)",
       defaultHoverBorderColor: "rgb(184, 184, 184)",
+      colorTextDisabled: "rgba(70, 70, 70, 0.2)",
     },
     Switch: {
       colorTextQuaternary: "rgb(235, 235, 235)",
@@ -114,6 +115,7 @@ export const theme: ThemeConfig = {
       borderRadius: 0,
       borderRadiusLG: 0,
       itemBg: "rgba(255, 255, 255, 0)",
+      groupTitleColor: "rgb(156, 156, 156)",
     },
     Table: {
       borderColor: "rgb(235, 235, 235)",
@@ -130,6 +132,8 @@ export const theme: ThemeConfig = {
       colorTextPlaceholder: "rgb(189, 146, 236)",
     },
     Select: {
+      colorTextDisabled: "rgba(70, 70, 70, 0.2)",
+      colorTextQuaternary: "rgb(70, 70, 70)",
       optionPadding: "8px 16px",
     },
     Modal: {
